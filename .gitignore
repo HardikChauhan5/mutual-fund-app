@@ -1,17 +1,22 @@
-# Node modules
+# Ignore node_modules and build artifacts
 node_modules/
-
-# Flutter build files
 build/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
 
 # IDE-specific files
 *.iml
 .idea/
 .vscode/
 
-# System files
-.DS_Store
-
 # Sensitive files
-*.env
 secrets.json
