@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Flutter build files
+build/
+
+# IDE-specific files
+*.iml
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+
+# Sensitive files
+*.env
+secrets.json
